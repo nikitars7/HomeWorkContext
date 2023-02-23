@@ -5,7 +5,11 @@ const User = () => {
   useEffect(()=>{
    const createUser = () => {
       const userName = prompt("Enter your name", "");
+      if(userName.trim() === ''){
+        setUser('Default Name')
+      }else{
       setUser(userName);
+      }
     }
     createUser()
   },[setUser])
