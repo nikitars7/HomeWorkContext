@@ -1,0 +1,14 @@
+body{
+  background-color: black;
+}
+.App {
+max-width: 500px;
+margin:0px auto;
+text-align: center;
+font-size: 40px;
+color:coral;
+padding: 50px;
+margin-top: 150px;
+}
+
+
